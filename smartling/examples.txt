@@ -1,0 +1,9 @@
+ ./setupNewProject.sh ee815af5-6e2b-445b-b2ba-17573ae7b50f 7528efacc wix-premium/messages /Users/itays/projects/wix-billing/wix-war/src/main/messages
+
+./downloadTranslations.sh ee815af5-6e2b-445b-b2ba-17573ae7b50f 7528efacc wix-premium/messages ~/projects/wix-billing/wix-war/src/main/messages
+
+ ./sortRepo.sh wix-premium/messages ~/projects/wix-billing/wix-war/src/main/messages
+
+./compare.sh wix-premium/messages ~/projects/wix-billing/wix-war/src/main/messages
+
+
